@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    color: #333;
+    font-size: 2rem;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.title-green {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    margin: 1.5rem;
+    color: green;
+}
+
+.lien {
+    background-color: green;
+    border: 0.2rem solid green;
+    border-radius: 3rem;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.lien:hover {
+    background-color: #fff;
+    color: green;
+}
+
+header {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-1 {
+/*    background-image: url(../img/banniere.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60rem;
+    text-align: center;
+}
+
+.s1d1 {
+    line-height: 3rem;
+    
+}
+
+.section-2 {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.section-2 hr {
+    width: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
